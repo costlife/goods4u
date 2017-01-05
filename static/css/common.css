@@ -1,0 +1,21 @@
+
+.header {
+    padding-top: 22px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background: url(../images/header.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+}
+
+.header-center {
+    flex: 1;
+}
+
+.header-left, .header-right {
+    width: 42px;
+    height: 42px;
+}
