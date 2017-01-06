@@ -1,4 +1,19 @@
-
+body {
+    background: #f0f0f0;
+}
+img {
+    width: 100%;
+}
+.clearfloat:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfloat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .header {
     padding-top: 22px;
     height: 42px;
@@ -18,4 +33,28 @@
 .header-left, .header-right {
     width: 42px;
     height: 42px;
+}
+
+.banner-text {
+    padding: 3px 10px 5px 10px;
+    line-height: 24px;
+}
+
+.card {
+    margin: 10px 0;
+    background: #fff;
+}
+
+.card-title {
+    background-color: #fff;
+}
+
+.card-title img {
+    width: 108px;
+}
+.card-title-right {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 12px;
 }
