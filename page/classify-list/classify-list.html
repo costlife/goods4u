@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>搜索为空</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="classify-list.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header-left" href="javascript:history.go(-1);">
+            <img src="../../static/images/icon-back.png" style="width:14px;vertical-align: middle;" />
+        </a>
+        <span class="header-center">
+            <span class="header-search">
+                <img src="../../static/images/icon-search.png" style="width:12px;vertical-align: middle;" />
+                <input type="text" name="name" placeholder="请输入商品名称" />
+            </span>
+        </span>
+        <span class="header-right" style="width: 60px">
+            <span class="shaixuan">筛选</span>
+        </span>
+    </header>
+    <div>
+        <div class="filter">
+            <ul class="filter-container">
+                <li class="filter-item ">综合</li>
+                <li class="filter-item active">价格</li>
+                <li class="filter-item">销量</li>
+                <li class="filter-item">上架时间</li>
+            </ul>
+        </div>
+        <div class="product-row">
+            <div class="product-item">
+                <div class="product-tag">new</div>
+                <img src="../../static/images/product-1.png">
+                <div class="product-name">斐婴宝500ml金装幼儿配 方奶粉3罐装</div>
+                <div class="product-price">¥1299</div>
+            </div>
+            <div class="product-spliter"></div>
+            <div class="product-item">
+                <div class="product-tag">专题</div>
+                <img src="../../static/images/product-1.png">
+                <div class="product-name">斐婴宝500ml金装幼儿配 方奶粉3罐装</div>
+                <div class="product-price">¥1299</div>
+            </div>
+        </div>
+        <div class="product-row">
+            <div class="product-item">
+                <div class="product-tag">测试</div>
+                <img src="../../static/images/product-1.png">
+                <div class="product-name">斐婴宝500ml金装幼儿配 方奶粉3罐装</div>
+                <div class="product-price">¥1299</div>
+            </div>
+            <div class="product-spliter"></div>
+            <div class="product-item">
+                <div class="product-tag">test</div>
+                <img src="../../static/images/product-1.png">
+                <div class="product-name">斐婴宝500ml金装幼儿配 方奶粉3罐装</div>
+                <div class="product-price">¥1299</div>
+            </div>
+        </div>
+    </div>
+    <div class="cover">
+        <div class="cover-bg"></div>
+        <div class="cover-body">
+            <div class="cover-title">筛选</div>
+            <div class="cover-zone">
+                <div>
+                    地区
+                    <span href="" class="cover-all-btn">全部</span>
+                </div>
+                <div class="cover-brick-zone">
+                    <span class="cover-brick active">北京</span>
+                    <span class="cover-brick">上海</span>
+                    <span class="cover-brick">广州</span>
+                    <span class="cover-brick">北京</span>
+                    <span class="cover-brick">上海</span>
+                    <span class="cover-brick">广州</span>
+                </div>
+            </div>
+            <div class="cover-grey-spliter"></div>
+            <div class="cover-price">
+                <div style="margin-bottom: 13px;">价格</div>
+                <input type="number" name="lowprice" class="cover-price-input" placeholder="最低价">
+                <span class="price-spliter"></span>
+                <input type="number" name="highprice" class="cover-price-input" placeholder="最高价">
+            </div>
+            <div class="cover-grey-spliter"></div>
+            <div class="cover-brand">
+                <div>
+                    品牌
+                    <span href="" class="cover-all-btn">全部</span>
+                </div>
+                <div class="cover-brick-zone">
+                    <span class="cover-brick active">Adidas</span>
+                    <span class="cover-brick">Nike</span>
+                    <span class="cover-brick">Levis</span>
+                    <span class="cover-brick">LV</span>
+                    <span class="cover-brick">DIOR</span>
+                    <span class="cover-brick">TEST</span>
+                </div>
+            </div>
+            <div class="cover-btn-group">
+                <a href="" class="cover-btn">重置</a>
+                <a href="" class="cover-btn cover-btn-red">确定</a>
+            </div>
+        </div>
+    </div>
+    <footer class="nav">
+        <a class="nav-item nav-1">首页</a>
+        <a class="nav-item nav-2">分类</a>
+        <a class="nav-item nav-3">搜索</a>
+        <a class="nav-item nav-4">订单</a>
+    </footer>
+    <script src="../../static/js/zepto.min.js"></script>
+    <script src="classify-list.js"></script>
+</body>
+</html>
