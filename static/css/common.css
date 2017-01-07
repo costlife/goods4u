@@ -245,19 +245,34 @@ img {
 .icon {
     display: inline-block;
     vertical-align: middle;
-    background-color: #6cc;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .address-icon {
     width: 12px;
     height: 14px;
+    background-image: url(../../static/images/icon-location.png);
 }
 .select-icon {
     width: 25px;
     height: 25px;
+    background-image: url(../../static/images/icon-selected-not.png);
+}
+.select-icon.selected {
+    background-image: url(../../static/images/icon-selected.png);
+}
+.complete-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url(../../static/images/icon-complete-not.png);
+}
+.complete-icon.selected {
+    background-image: url(../../static/images/icon-complete.png);
 }
 .detail-icon {
     width: 10px;
     height: 16px;
+    background-image: url(../../static/images/icon-right.png);
 }
 .count-icon {
     width: 27px;
@@ -265,11 +280,14 @@ img {
 }
 
 .decrease-count {
-
+    background-image: url(../../static/images/icon-minus.png);
 }
 
+.decrease-count.disabled {
+    background-image: url(../../static/images/icon-minus-disabled.png);
+}
 .increase-count {
-
+    background-image: url(../../static/images/icon-plus.png);
 }
 .order-block {
     padding: 0 12px;
