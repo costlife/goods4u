@@ -1,0 +1,77 @@
+.addr-new-item {
+    padding: 0 12px;
+    display: flex;
+    display: -webkit-flex;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+}
+.addr-new-item label {
+    width: 70px;
+    text-align: right;
+}
+.addr-new-item input {
+    flex: 1;
+}
+.addr-switch-container {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+.addr-switch {
+    flex: none !important;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 52px;
+    height: 32px;
+    border: 1px solid #DFDFDF;
+    outline: 0;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: #DFDFDF;
+    -webkit-transition: background-color 0.1s, border 0.1s;
+    transition: background-color 0.1s, border 0.1s;
+}
+.addr-switch:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FDFDFD;
+    -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+    transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+    transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+    transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1), -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+.addr-switch:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+    transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+    transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+    transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35), -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+}
+.addr-switch:checked {
+    border-color: #fd5256;
+    background-color: #fd5256;
+}
+.addr-switch:checked:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.addr-switch:checked:after {
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+}

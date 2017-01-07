@@ -1,0 +1,38 @@
+.addr-item {
+    padding: 12px 12px 0 12px;
+}
+.addr-row {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.addr-phone {
+    float: right;
+}
+.addr-option {
+    display: flex;
+    display: -webkit-flex;
+    height: 48px;
+    line-height: 48px;
+    border-top: 1px solid #d2d2d2;
+}
+.addr-option-item {
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 50%;
+}
+.item-check {
+    flex: 1;
+    background-image: url(../../static/images/icon-check-not.png);
+}
+.item-check.checked {
+    background-image: url(../../static/images/icon-check.png);
+}
+.item-edit {
+    background-image: url(../../static/images/icon-write.png);
+}
+.item-delete {
+    margin-left: 15px;
+    background-image: url(../../static/images/icon-delete.png);
+}
