@@ -1,0 +1,36 @@
+.order-address {
+    box-sizing: border-box;
+    height: 93px;
+}
+.contact-detail {
+    padding-top: 20px;
+}
+.address-detail {
+    padding-top: 19px;
+}
+.select-icon,
+.detail-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.order-payment {
+    height: 56px;
+    line-height: 56px;
+}
+.order-deliver {
+    height: 56px;
+    line-height: 56px;
+}
+.deliver-detail {
+    color: #707070;
+    float: right;
+    margin-right: 14px;
+}
+.footer {
+    background-color: #4b5656;
+}
+.footer-right {
+    background-color: #ff002a;
+}
