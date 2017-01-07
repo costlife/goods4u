@@ -1,0 +1,14 @@
+.goods-item:last-of-type {
+    border-bottom: none;
+}
+.footer {
+    background-color: #4b5656;
+}
+.pay-order {
+    background-color: #ff002a;
+    border-radius: 4px;
+    display: inline-block;
+    width: 90px;
+    height: 33px;
+    line-height: 33px;
+}
