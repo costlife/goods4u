@@ -1,0 +1,81 @@
+.order-filter-list {
+    display: flex;
+    display: -webkit-flex;
+    height: 30px;
+    line-height: 30px;
+    padding: 8px 0;
+}
+.order-filter {
+    flex: 1;
+    text-align: center;
+    color: #808080;
+    font-size: 15px;
+}
+.order-filter.active {
+    color: #fd5256;
+}
+.order-filter-spliter {
+    display: inline-block;
+    width: 1px;
+    background-color: #e2e2e2;
+}
+.order-item {
+    padding: 0 12px;
+}
+.order-item-row {
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.order-status {
+    float: right;
+}
+.order-status-orange {
+    color: #ff9e05;
+}
+.order-status-blue {
+    color: #1393ff;
+}
+.order-item-detail {
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.order-item-detail img {
+    width: 35px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 0 13px;
+}
+.order-item-detail-text {
+    float: right;
+    font-size: 15px;
+}
+.order-item-option {
+    display: flex;
+    display: -webkit-flex;
+    height: 55px;
+    line-height: 55px;
+}
+.order-item-total {
+    flex: 1;
+}
+.order-item-option em {
+    color: #fc4c4f;
+    font-style: normal;
+}
+.order-btn {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #919191;
+    margin-top: 15px;
+}
+.order-btn-pay {
+    background-color: #fc4c4f;
+    margin-left: 10px;
+}

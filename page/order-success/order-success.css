@@ -1,0 +1,27 @@
+.order-success {
+    font-size: 18px;
+    text-align: center;
+}
+.order-success-image {
+    width: 120px;
+    margin-top: 33px;
+}
+.order-success-bg {
+    display: block;
+    width: 296px;
+    height: 122px;
+    line-height: 32px;
+    padding-top: 1px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    text-align: left;
+    background-image: url(../../static/images/order-success-bg.png);
+    background-size: cover;
+    margin: auto;
+}
+.order-success-info {
+    color: #a0a0a0;
+    width: 260px;
+    margin: 30px auto;
+    line-height: 35px;
+}
