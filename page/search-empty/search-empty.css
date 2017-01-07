@@ -1,0 +1,9 @@
+.search-empty {
+    text-align: center;
+    margin-top: 150px;
+    color: #808080;
+}
+.search-empty img {
+    width: 150px;
+    margin-bottom: 20px;
+}

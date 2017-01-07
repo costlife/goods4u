@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>搜索</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header-left" href="javascript:history.go(-1);">
+            <img src="../../static/images/icon-back.png" style="width:14px;vertical-align: middle;" />
+        </a>
+        <span class="header-center">
+            <span class="header-search">
+                <img src="../../static/images/icon-search.png" style="width:12px;vertical-align: middle;" />
+                <input type="text" name="name" placeholder="请输入商品名称" />
+            </span>
+        </span>
+        <span class="header-right">
+        </span>
+    </header>
+    <div>
+        <h3>热门搜索</h3>
+        <div class="hot-search-container clearfloat">
+            <span class="hot-search-item">
+                <a class="hot-search">YSL</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">Dior</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">LV</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">Channel</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">兰蔻</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">雅诗兰黛</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">Vercase</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">PP</a>
+            </span>
+            <span class="hot-search-item">
+                <a class="hot-search">卡地亚</a>
+            </span>
+        </div>
+        <h3>历史搜索</h3>
+        <div class="history-container">
+            <a class="history-item">
+                <img src="../../static/images/icon-clock.png" class="history-clock" />
+                卡地亚
+                <img src="../../static/images/icon-x.png" class="history-delete"/>
+            </a>
+            <a class="history-item">
+                <img src="../../static/images/icon-clock.png" class="history-clock" />
+                DIOR
+                <img src="../../static/images/icon-x.png" class="history-delete"/>
+            </a>
+            <div class="history-clear">
+                <img src="../../static/images/icon-trash.png"/>
+                清除所有历史搜索记录
+            </div>
+        </div>
+    </div>
+    <script src="../../static/js/zepto.min.js"></script>
+</body>
+</html>

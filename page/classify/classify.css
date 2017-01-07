@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.catetory {
+    float: left;
+    background-color: #f5f5f5;    
+    position: absolute;
+    bottom: 50px;
+    top: 64px;
+    width: 82px;
+}
+.catetory-item {
+    height: 60px;
+    line-height: 60px;
+    width: 82px;
+    border-bottom: 1px solid #d4d4d4;
+    text-align: center;
+}
+.catetory-item.active {
+    color: #fa545a;
+}
+.detail {
+    margin-left: 82px;
+}
+.detail img {
+    width: 40px;
+} 
+.detail-item {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+}
