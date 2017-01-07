@@ -1,6 +1,8 @@
 .order-address {
     box-sizing: border-box;
     height: 93px;
+    border-bottom: 2px solid transparent;
+    border-image: url(../../static/images/addr-bar.png) 2 0 stretch;
 }
 .contact-detail {
     padding-top: 20px;
