@@ -6,4 +6,8 @@ $(function () {
         $('.filter-item.active').removeClass('active');
         $(this).addClass('active');
     });
+    $('.cover-brick').on('click', function () {
+        $(this).siblings().removeClass('active')
+        $(this).addClass('active');
+    });
 })
