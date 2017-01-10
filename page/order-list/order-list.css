@@ -41,6 +41,9 @@
     line-height: 90px;
     border-bottom: 1px solid #d5d5d5;
 }
+.order-item-detail a {
+    display: block;
+}
 .order-item-detail img {
     width: 35px;
     height: 50px;
