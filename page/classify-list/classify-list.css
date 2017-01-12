@@ -13,8 +13,20 @@ body {
 .filter-item {
     flex : 1;
 }
+.filter-item i {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background-image: url(../../static/images/icon-arrow-down-solid.png);
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+}
 .filter-item.active {
     color: #fa545a;
+}
+.filter-item.active i {
+    background-image: url(../../static/images/icon-arrow-down-solid-active.png);
 }
 .cover {
     display: none;
@@ -88,11 +100,14 @@ body {
     color: #fff;
     border-color: #fa545a;
 }
+.cover-brick-hide {
+    display: none;
+}
 .cover-price {
     padding: 15px;
 }
 .cover-price-input {
-    width: 147px;
+    width: 40%;
     height: 30px;
     line-height: 30px;
     border: 1px solid #b5b5b5;
@@ -115,9 +130,12 @@ body {
     color: #fff;
     background-color: #ff4949;
 }
-.cover-all-btn {
+.cover-all-btn, .hide-all-btn {
     float: right;
     margin-right: 15px;
     color: #808080;
     font-size: 14px;
+}
+.hide-all-btn {
+    display: none;
 }

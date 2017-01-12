@@ -1,3 +1,22 @@
+.header-left, .header-center, .header-right {
+    background: #fff;
+    border: 1px solid #fff;
+    margin: -1px;
+}
+.header-left img {
+    display: inline-block;
+    background-color: #7f7f7f;
+    border-radius: 50%;
+    width: 15px;
+    padding: 4px 8px;
+}
+.header-right img {
+    display: inline-block;
+    background-color: #7f7f7f;
+    border-radius: 50%;
+    width: 15px;
+    padding: 8px;
+}
 .product-image {
     padding: 50px;
 }

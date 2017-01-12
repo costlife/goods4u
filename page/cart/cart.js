@@ -13,6 +13,11 @@ $(function () {
         $(this).find('.select-icon').toggleClass('selected');
     });
     $('.selection').click(function () {
-        $('.select-icon').addClass('selected');
+        var selectAll = $(this).find('.select-icon').hasClass('selected');
+        if (selectAll) {
+            $('.select-icon').removeClass('selected');
+        } else {
+            $('.select-icon').addClass('selected');
+        }
     });
 });

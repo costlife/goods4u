@@ -114,7 +114,7 @@ a {
     height: 20px;
     line-height: 20px;
     font-size: 10px;
-    color: #333;
+    color: #fa545a;
     text-decoration: none;
 }
 .nav-1 {
@@ -149,6 +149,7 @@ a {
     display: flex;
     display: -webkit-flex;
     text-align: center;
+    font-size: 15px;
 }
 .header-center {
     flex: 1;
